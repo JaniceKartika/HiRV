@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingEnd="@dimen/horizontal_margin"
+    android:paddingStart="@dimen/horizontal_margin"
+    android:paddingTop="@dimen/vertical_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/card_dimen"
+        app:cardElevation="@dimen/card_dimen"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCoffee"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/kopi_kucing" />
+
+            <TextView
+                android:id="@+id/tvCoffee"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/vertical_margin"
+                android:paddingEnd="@dimen/horizontal_margin"
+                android:paddingStart="@dimen/horizontal_margin"
+                android:paddingTop="@dimen/vertical_margin"
+                tools:text="@string/kopi_kucing" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

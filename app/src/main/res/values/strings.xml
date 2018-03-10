@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HiRV</string>
+
+    <string name="kopi_kucing">Kopi Kucing</string>
+    <string name="kopi_starbucks">Kopi Starbucks</string>
+    <string name="kopi_dingin">Kopi Dingin</string>
+    <string name="kopi_warung">Kopi Warung</string>
+
+    <string-array name="coffees">
+        <item>@string/kopi_kucing</item>
+        <item>@string/kopi_starbucks</item>
+        <item>@string/kopi_dingin</item>
+        <item>@string/kopi_warung</item>
+    </string-array>
+</resources>
