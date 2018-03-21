@@ -12,4 +12,12 @@
         <item>@string/kopi_dingin</item>
         <item>@string/kopi_warung</item>
     </string-array>
+
+    <string name="product_search_hint">Cari Produk</string>
+    <string name="product_search_button">Cari</string>
+    <string name="call_failed">Gagal mendapatkan data</string>
+
+    <!--TODO: isi user id dan key di sini-->
+    <string name="user_id">user id</string>
+    <string name="key">key</string>
 </resources>

@@ -1,9 +1,10 @@
-package com.bukalapak.hirv
+package com.bukalapak.hirv.coffee
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bukalapak.hirv.R
 import kotlinx.android.synthetic.main.item_coffee.view.*
 
 /**
